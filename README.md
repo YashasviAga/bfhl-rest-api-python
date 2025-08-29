@@ -69,5 +69,11 @@ You can test the API using:
   Example:
   ```bash
     curl -X POST http://127.0.0.1:5000/bfhl \
+
+### Live API
+
+The project is hosted on Render. You can access it here:  
+🔗 [Live API URL](https://bfhl-rest-api-python.onrender.com)
+
     -H "Content-Type: application/json" \
     -d '{"data": ["A", "B", "1", "2"]}'
